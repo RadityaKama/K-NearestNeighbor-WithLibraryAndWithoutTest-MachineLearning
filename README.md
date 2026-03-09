@@ -2,7 +2,7 @@
 
 Proyek ini berisi implementasi dan perbandingan evaluasi algoritma pembelajaran mesin K-Nearest Neighbors (K-NN) untuk memprediksi performa siswa. Pengujian dilakukan dengan dua pendekatan komparatif: menggunakan library `scikit-learn` dan implementasi logika manual (non-library) dari awal menggunakan Python.
 
-## 📊 Dataset
+## Dataset
 Dataset yang digunakan dalam pengujian ini adalah `StudentPerformanceFactors.csv`. Dataset ini merangkum berbagai elemen yang memengaruhi kinerja akademis siswa.
 - [cite_start]**Fitur/Variabel Independen**: Variabel yang dianalisis meliputi waktu belajar, kehadiran, keterlibatan orang tua, jam tidur, skor ujian sebelumnya, hingga kualitas guru[cite: 1968].
 - **Target Variabel**: Kolom `Exam_Score` dimodifikasi menjadi target klasifikasi biner. Nilai yang lebih besar atau sama dengan nilai median diklasifikasikan sebagai `1` (memenuhi standar/tinggi), sedangkan nilai di bawah median diklasifikasikan sebagai `0`.
